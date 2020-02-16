@@ -1,0 +1,21 @@
+{
+  "name": "rf-color-contrast",
+  "version": "1.0.0",
+  "description": "a vanilla js function that takes in an array of colors and returns the wcag contrast scors of all of their combinaations\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "TODO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:ryanfiller/rf-color-contrast.git"
+  },
+  "keywords": [
+    "wcag",
+    "colors",
+    "color",
+    "contrast"
+  ],
+  "author": "@ryanfiller_",
+  "license": "ISC"
+}
