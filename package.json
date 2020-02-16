@@ -4,7 +4,7 @@
   "description": "a vanilla js function that takes in an array of colors and returns the wcag contrast scors of all of their combinaations",
   "main": "index.js",
   "scripts": {
-    "test": "TODO"
+    "test": "node index.test.js"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 const wcag = require('wcag-contrast')
 const colorcolor = require('colorcolor')
 
-export default function generateChart(colorArray) {
+function generateChart(colorArray) {
 
   // transform the array into one of object with name and hex values
   const colorArrayWithNames = colorArray.map(function(color) {
@@ -63,3 +63,5 @@ export default function generateChart(colorArray) {
   
   return colorChart
 }
+
+module.exports = generateChart
