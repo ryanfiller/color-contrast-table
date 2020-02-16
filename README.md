@@ -135,11 +135,11 @@ You will get an array back with this shape
 
 ### Score Key
 
- - **AAA** - The contrast ratio was greater than 7.0
+- **AAA** - The contrast ratio was greater than 7.0
   - this is a great score, you can _definitely_ use this combination
- - **AA** - The contrast ratio was greater than 4.5, but less than 7
+- **AA** - The contrast ratio was greater than 4.5, but less than 7
   - this is a pretty good score, safe for most applications
- - **18+** - The contrast ratio was greater than 3.0, but less than 4.5
+- **18+** - The contrast ratio was greater than 3.0, but less than 4.5
   - this means this color combo is safe for text larger than 18px
 - **fail** - The contrast ratio was less than 3.
   - this is a bad score, please be very careful using this combination of text and background
