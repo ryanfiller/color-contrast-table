@@ -17,5 +17,9 @@
     "contrast"
   ],
   "author": "@ryanfiller_",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "colorcolor": "^1.1.1",
+    "wcag-contrast": "^3.0.0"
+  }
 }
