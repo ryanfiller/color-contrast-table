@@ -1,0 +1,20 @@
+{
+  "name": "color-contrast-table-react-example",
+  "homepage": "https://ryanfiller.github.io/color-contrast-table-react",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "file:../node_modules/react",
+    "react-dom": "file:../node_modules/react-dom",
+    "react-scripts": "^1.1.4",
+    "color-contrast-table-react": "link:.."
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

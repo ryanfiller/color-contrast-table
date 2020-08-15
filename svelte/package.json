@@ -1,0 +1,26 @@
+{
+  "name": "color-contrast-table-svelte",
+  "version": "3.0.0",
+  "description": "takes an array of colors and generates an html table showing wcag scores for all possible color combinations",
+  "author": "ryanfiller",
+  "license": "MIT",
+  "repository": "ryanfiller/color-contrast-table/svelte",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^2.23.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "svelte": "^3.24.0"
+  },
+  "dependencies": {
+    "color-contrast-table": "^1.0.0",
+    "wcag-contrast": "^3.0.0"
+  }
+}

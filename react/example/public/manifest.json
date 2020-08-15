@@ -1,0 +1,8 @@
+{
+  "short_name": "color-contrast-table-react",
+  "name": "color-contrast-table-react",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
