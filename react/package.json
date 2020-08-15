@@ -55,7 +55,7 @@
     "identity-obj-proxy": "^3.0.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "^3.4.3",
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^9.1.3",

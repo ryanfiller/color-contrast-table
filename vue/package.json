@@ -15,7 +15,6 @@
   "browser": "dist/color-contrast-table-vue.esm.js",
   "module": "dist/color-contrast-table-vue.esm.js",
   "unpkg": "dist/color-contrast-table-vue.min.js",
-
   "files": [
     "dist/*",
     "src/**/*.vue"
@@ -28,7 +27,6 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "dependencies": {
     "color-contrast-table": "^1.0.0",
     "throttle-debounce": "^2.2.1",
