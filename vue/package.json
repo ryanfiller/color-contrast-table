@@ -1,11 +1,16 @@
 {
   "name": "color-contrast-table-vue",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "takes an array of colors and generates an html table showing wcag scores for all possible color combinations",
   "author": "ryanfiller",
   "license": "MIT",
-  "repository": "ryanfiller/color-contrast-table/vue",
-
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanfiller/color-contrast-table/tree/master/vue"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfiller/color-contrast-table/issues"
+  },
   "main": "dist/color-contrast-table-vue.ssr.js",
   "browser": "dist/color-contrast-table-vue.esm.js",
   "module": "dist/color-contrast-table-vue.esm.js",

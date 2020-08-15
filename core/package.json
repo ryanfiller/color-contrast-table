@@ -1,6 +1,6 @@
 {
   "name": "color-contrast-table",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "a vanilla js function that takes in an array of colors and returns the wcag contrast scors of all of their combinaations",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ryanfiller/rf-color-contrast/core"
+    "url": "https://github.com/ryanfiller/color-contrast-table/tree/master/core"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfiller/color-contrast-table/issues"
   },
   "keywords": [
     "wcag",
