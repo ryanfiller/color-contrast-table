@@ -1,0 +1,23 @@
+{
+  "name": "color-contrast-table",
+  "version": "0.0.0",
+  "description": "a mono repo to hold all the code related to the `color-contrast-table` package library",
+  "scripts": {
+    "test:core": "cd ./core && npm run develop && cypress open",
+    "test:react": "cd ./react && npm run develop && cypress open",
+    "test:svelte": "cd ./svelte && npm run develop && cypress open",
+    "test:vue": "cd ./vue && npm run develop && cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanfiller/color-contrast-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanfiller/color-contrast-table/issues"
+  },
+  "author": "ryan filler",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.12.1"
+  }
+}
