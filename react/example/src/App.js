@@ -27,11 +27,11 @@ export default class App extends Component {
         <Chart 
           colors={colors}
           useStyles
-          // editNames
-          // editValues
-          onNamesChange={(index, value) => console.log({index, value})}
-          onValuesChange={(index, value) => console.log({index, value})}
-          onInputBlur={event => console.log(event)}
+          editNames
+          editValues
+          // onNamesChange={(index, value) => console.log({index, value})}
+          // onValuesChange={(index, value) => console.log({index, value})}
+          // onInputBlur={event => console.log(event)}
         />
       </div>
     )

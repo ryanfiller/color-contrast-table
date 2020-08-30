@@ -9,7 +9,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "^1.1.4",
-    "color-contrast-table-react": "link:.."
+    "color-contrast-table-react": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
