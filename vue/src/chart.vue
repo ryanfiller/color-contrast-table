@@ -32,20 +32,14 @@
           if (value === '') { 
             value = `Color ${index + 1}`
           }
-          const newColors = [...this.colorArray]
-          newColors[index].name = value
-          // this.colorArray = newColors
-          this.colorChart = newColors
+          this.colorArray[index].name = value
         }
       }),
       valuechange: debounce(0, false, function (index, value) {
         if (this.$props.onValuesChange) {
           this.$props.onValuesChange(index, value)
         } else {
-          const newColors = [...this.colorArray]
-          newColors[index].value = value
-          // this.colorArray = newColors
-          this.colorChart = newColors
+          this.colorArray[index].value = value
         }
       }),
       inputblur(event) {
@@ -62,13 +56,8 @@
       }
     },
     computed: {
-      colorChart: {
-        get: function () {
-          return this.generateChart(this.colorArray)
-        },
-        set: function(newColors) {
-          this.colorArray = this.generateChart(newColors)
-        }
+      colorChart: function () {
+        return this.generateChart(this.colorArray)
       }
     },
   }
