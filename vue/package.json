@@ -1,6 +1,6 @@
 {
   "name": "color-contrast-table-vue",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "takes an array of colors and generates an html table showing wcag scores for all possible color combinations",
   "author": "ryanfiller",
   "license": "MIT",

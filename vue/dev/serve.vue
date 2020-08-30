@@ -46,9 +46,9 @@ export default Vue.extend({
     :colors="colors"
     editNames
     editValues
-    :onInputBlur="test"
   />
-    <!-- :onValuesChange="test"
+    <!-- :onInputBlur="test"
+    :onValuesChange="test"
     :onNamesChange="test" -->
 </template>
 

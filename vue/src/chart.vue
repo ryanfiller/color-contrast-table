@@ -24,7 +24,7 @@
     methods: {
       generateChart,
       debounce,
-      namechange: debounce(50, true, function (index, value) {
+      namechange: debounce(0, false, function (index, value) {
         if (this.$props.onNamesChange) {
           this.$props.onNamesChange(index, value)
         } else {
@@ -34,16 +34,18 @@
           }
           const newColors = [...this.colorArray]
           newColors[index].name = value
-          this.colorArray = newColors
+          // this.colorArray = newColors
+          this.colorChart = newColors
         }
       }),
-      valuechange: debounce(50, true, function (index, value) {
+      valuechange: debounce(0, false, function (index, value) {
         if (this.$props.onValuesChange) {
           this.$props.onValuesChange(index, value)
         } else {
           const newColors = [...this.colorArray]
           newColors[index].value = value
-          this.colorArray = newColors
+          // this.colorArray = newColors
+          this.colorChart = newColors
         }
       }),
       inputblur(event) {
@@ -60,10 +62,15 @@
       }
     },
     computed: {
-      colorChart: function () {
-        return this.generateChart(this.colorArray)
+      colorChart: {
+        get: function () {
+          return this.generateChart(this.colorArray)
+        },
+        set: function(newColors) {
+          this.colorArray = this.generateChart(newColors)
+        }
       }
-    }
+    },
   }
 </script>
 
