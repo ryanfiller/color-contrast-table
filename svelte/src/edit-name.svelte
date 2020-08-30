@@ -1,8 +1,17 @@
 <script>
+  import { debounce } from 'throttle-debounce'
   export let value = ''
   export let index = ''
-  export let onChange
   export let onBlur
+
+  import { colorArray } from './stores.js'
+  export let onChange = debounce(0, false, (index, value) => {
+    colorArray.update(colorArray => {
+      const newColors = [...colorArray]
+      newColors[index].name = value
+      return newColors
+    })
+  })
 </script>
 
 <label class='color-contrast-table__header-label color-contrast-table__header-label--edit-name'>

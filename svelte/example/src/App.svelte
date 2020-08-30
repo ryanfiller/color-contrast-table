@@ -42,6 +42,5 @@ the value of the first color is {colors[0].name} {colors[0].value}
 	useStyles
 	editNames
 	editValues
-	
 	onInputBlur={event => console.log(event)}
 />

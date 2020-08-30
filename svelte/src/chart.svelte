@@ -7,27 +7,14 @@
   export let onValuesChange
   export let onInputBlur
 
-  const defaultOnNamesChange = (index, value) => {
-    // guard against array map failing
-    if (value === '') { 
-      value = `Color ${index + 1}`
-    }
-    const newColors = [...colors]
-    newColors[index].name = value
-    colors = newColors
-  }
-
-  const defaultOnValuesChange = (index, value) => {
-    const newColors = [...colors]
-    newColors[index].value = value
-    colors = newColors
-  }
-
-
   import generateChart from 'color-contrast-table'
+  import { colorArray } from './stores.js'
 
   import Table from './table.svelte'
   import Styles from './styles.svelte'
+
+  colorArray.set(colors)
+  colorArray.subscribe(value => colors = value)
 
   $: colors = generateChart(colors)
 </script>
@@ -39,7 +26,7 @@
   {colors}
   editNames={!!onNamesChange || !!editNames}
   editValues={!!onValuesChange || !!editValues}
-  onNamesChange={defaultOnNamesChange || onNamesChange}
-  onValuesChange={defaultOnValuesChange || onValuesChange}
+  onNamesChange={onNamesChange}
+  onValuesChange={onValuesChange}
   {onInputBlur}
 />

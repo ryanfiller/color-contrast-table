@@ -2,7 +2,7 @@
   export let color = {}
 
   import Header from './header.svelte'
-  import Color from './color.svelte'
+  import Color from './color.svelte' 
 </script>
 
 <tr
