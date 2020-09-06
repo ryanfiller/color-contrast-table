@@ -25,6 +25,8 @@
 		newColors[index][valueType] = newValue
 		colors = newColors
 	}
+
+	$: editable = false
 </script>
 
 <style>
@@ -35,12 +37,16 @@
 	}
 </style>
 
+<button on:click={() => editable = !editable}>click</button>
+
+{editable}
+
 the value of the first color is {colors[0].name} {colors[0].value}
 
 <ColorContrastChart
 	{colors}
 	useStyles
-	editNames
-	editValues
+	editNames={editable}
+	editValues={editable}
 	onInputBlur={event => console.log(event)}
 />

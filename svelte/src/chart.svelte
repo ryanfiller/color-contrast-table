@@ -1,8 +1,8 @@
 <script>
   export let colors = []
   export let useStyles = false
-  export let editNames = null
-  export let editValues = null
+  export let editNames
+  export let editValues
   export let onNamesChange
   export let onValuesChange
   export let onInputBlur
@@ -26,7 +26,7 @@
   {colors}
   editNames={!!onNamesChange || !!editNames}
   editValues={!!onValuesChange || !!editValues}
-  onNamesChange={onNamesChange}
-  onValuesChange={onValuesChange}
+  {onNamesChange}
+  {onValuesChange}
   {onInputBlur}
 />

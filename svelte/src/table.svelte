@@ -3,7 +3,7 @@
   export let useStyles
 
   import Row from './row.svelte'
-  const props = $$restProps
+  $: props = $$restProps
 </script>
 
 
