@@ -6,6 +6,8 @@
 
   import { colorArray } from './stores.js'
   export let onChange = debounce(0, false, (index, value) => {
+    // guard against array map failing
+    if (value === '') { value = `Color ${index + 1}` }
     colorArray.update(colorArray => {
       const newColors = [...colorArray]
       newColors[index].name = value
