@@ -8,6 +8,7 @@ const Row = props => {
   return (
     <tr
       className='color-contrast-table__row'
+      data-color={color.name}
       style={{
         background: props.color.value,
         color: props.color.value

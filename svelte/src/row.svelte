@@ -7,6 +7,7 @@
 
 <tr
   class='color-contrast-table__row'
+  data-color={color.name}
   style="
     background: {color.value};
     color: {color.value};

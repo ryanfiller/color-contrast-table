@@ -5,7 +5,10 @@ import getLabelColor from './get-label-color'
 
 const Color = props => {
   return (
-    <td className='color-contrast-table__color'>
+    <td
+      className='color-contrast-table__color'
+      data-color={color.name}
+    >
       <div
         title={`${props.color.ratio} : 1`}
         className={props.color.score !== 'fail' ? 'color-contrast-table__color-block' : 'color-contrast-table__color-block color-contrast-table__color-block--fail'}
