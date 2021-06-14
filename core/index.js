@@ -64,4 +64,4 @@ function generateChart(colorArray) {
   return colorChart
 }
 
-module.exports = { generateChart }
+module.exports = generateChart
