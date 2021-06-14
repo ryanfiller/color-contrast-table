@@ -1,6 +1,6 @@
 {
   "name": "color-contrast-table-svelte",
-  "version": "3.0.10",
+  "version": "4.0.0",
   "description": "takes an array of colors and generates an html table showing wcag scores for all possible color combinations",
   "author": "ryanfiller",
   "license": "MIT",
@@ -26,7 +26,7 @@
     "svelte": "^3.24.0"
   },
   "dependencies": {
-    "color-contrast-table": "^3.0.0",
+    "color-contrast-table": "^4.0.0",
     "throttle-debounce": "^2.2.1",
     "wcag-contrast": "^3.0.0"
   }
