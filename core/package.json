@@ -1,10 +1,13 @@
 {
   "name": "color-contrast-table",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "a vanilla js function that takes in an array of colors and returns the wcag contrast scors of all of their combinaations",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,10 @@
   "dependencies": {
     "colorcolor": "^1.1.1",
     "wcag-contrast": "^3.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.23.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
   }
 }
