@@ -1,6 +1,7 @@
 {
+  "type": "module",
   "name": "color-contrast-table",
-  "version": "3.0.3",
+  "version": "4.0.0",
   "description": "a vanilla js function that takes in an array of colors and returns the wcag contrast scors of all of their combinaations",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

@@ -1,4 +1,4 @@
-const generateChart = require('./index.js')
+import generateChart from './index.js'
 
 // I know this is not a great test
 

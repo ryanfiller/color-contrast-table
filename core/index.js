@@ -1,5 +1,5 @@
-const wcag = require('wcag-contrast')
-const colorcolor = require('colorcolor')
+import * as wcag from 'wcag-contrast'
+import { default as colorcolor } from 'colorcolor'
 
 function generateChart(colorArray) {
 
@@ -64,4 +64,4 @@ function generateChart(colorArray) {
   return colorChart
 }
 
-module.exports = generateChart
+export default generateChart
