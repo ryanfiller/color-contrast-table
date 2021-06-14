@@ -19,6 +19,6 @@ export default {
   ],
   plugins: [
     resolve(),
-    commonjs({ include: ['node_modules/**'] })
-  ]
+    commonjs({include: ['index.js']})
+  ],
 }
