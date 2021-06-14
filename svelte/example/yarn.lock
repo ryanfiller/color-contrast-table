@@ -142,9 +142,12 @@ chokidar@^3.3.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
-"color-contrast-table-svelte@link:..":
-  version "0.0.0"
-  uid ""
+"color-contrast-table-svelte@file:..":
+  version "3.0.8"
+  dependencies:
+    color-contrast-table "^1.0.0"
+    throttle-debounce "^2.2.1"
+    wcag-contrast "^3.0.0"
 
 color-contrast-table@^1.0.0:
   version "1.0.0"
@@ -232,8 +235,8 @@ get-port@^3.2.0:
   resolved "https://registry.yarnpkg.com/get-port/-/get-port-3.2.0.tgz#dd7ce7de187c06c8bf353796ac71e099f0980ebc"
 
 glob-parent@~5.1.0:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.1.tgz#b6c1ef417c4e5663ea498f1c45afac6916bbc229"
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
   dependencies:
     is-glob "^4.0.1"
 
