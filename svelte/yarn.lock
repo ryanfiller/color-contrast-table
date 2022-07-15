@@ -20,9 +20,9 @@ builtin-modules@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.1.0.tgz#aad97c15131eb76b65b50ef208e7584cd76a7484"
 
-color-contrast-table@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/color-contrast-table/-/color-contrast-table-1.0.0.tgz#a7a6d4a32786dd55a85374b653406cf51b6404e7"
+color-contrast-table@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/color-contrast-table/-/color-contrast-table-4.0.0.tgz#3d39058193a9bcb5e99b166aa27b82bd47a15ec3"
   dependencies:
     colorcolor "^1.1.1"
     wcag-contrast "^3.0.0"
@@ -130,8 +130,8 @@ sourcemap-codec@^1.4.4, sourcemap-codec@^1.4.8:
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
 
 svelte@^3.24.0:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.0.tgz#6565a42c9705796fa66c6abb4fedc09f4323a4a8"
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
 
 throttle-debounce@^2.2.1:
   version "2.2.1"
