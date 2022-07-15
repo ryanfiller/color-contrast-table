@@ -142,13 +142,16 @@ chokidar@^3.3.0:
   optionalDependencies:
     fsevents "~2.1.2"
 
-"color-contrast-table-svelte@link:..":
-  version "0.0.0"
-  uid ""
+"color-contrast-table-svelte@file:..":
+  version "4.0.0"
+  dependencies:
+    color-contrast-table "^4.0.0"
+    throttle-debounce "^2.2.1"
+    wcag-contrast "^3.0.0"
 
-color-contrast-table@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/color-contrast-table/-/color-contrast-table-1.0.0.tgz#a7a6d4a32786dd55a85374b653406cf51b6404e7"
+color-contrast-table@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/color-contrast-table/-/color-contrast-table-4.0.0.tgz#3d39058193a9bcb5e99b166aa27b82bd47a15ec3"
   dependencies:
     colorcolor "^1.1.1"
     wcag-contrast "^3.0.0"
@@ -495,9 +498,9 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte@^3.0.0:
-  version "3.24.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.0.tgz#6565a42c9705796fa66c6abb4fedc09f4323a4a8"
+svelte@^3.49.0:
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
 
 terser@^4.6.2:
   version "4.8.0"
